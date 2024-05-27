@@ -125,3 +125,57 @@ main {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid #444;
+}
+
+.contact-info, .social-media {
+    text-align: left;
+}
+
+.contact-info h3, .social-media h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p, .social-media a {
+    margin: 0.25rem 0;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.social-media a {
+    margin-right: 0.5rem;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    padding: 1rem 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #aaa;
+}
