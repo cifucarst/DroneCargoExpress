@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DroneCargoExpress - Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>DRONECARGOEXPRESS</h1>
+        </header>
+
+        <div class="tabs">
+            <button class="tab">Iniciar Sesión</button>
+            <button class="tab active">Nuevo Usuario</button>
+        </div>
+
+        <main class="form-container">
+            <h2>CREA TU CUENTA</h2>
+
+            <div class="social-login">
+                <button class="btn facebook">Iniciar con Facebook</button>
+                <button class="btn google">Iniciar con Google</button>
+            </div>
+
+            <p class="terms">* Al ingresar aceptas los Términos y condiciones</p>
+
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Escribe tu contraseña" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="repite_contraseña">Repite Contraseña</label>
+                    <input type="password" id="repite_contraseña" name="repite_contraseña" placeholder="Repite tu contraseña" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad" placeholder="Escribe tu ciudad" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="pais">País</label>
+                    <select id="pais" name="pais" required>
+                        <option value="" disabled selected>- seleccionar -</option>
+                        <!-- Agregar opciones de países aquí -->
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="municipio">Municipio</label>
+                    <input type="text" id="municipio" name="municipio" placeholder="Escribe tu municipio" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="Escribe tu teléfono" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="celular">Celular</label>
+                    <input type="text" id="celular" name="celular" placeholder="Escribe tu celular" required>
+                </div>
+
+                <div class="input-group checkbox-group">
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <label for="terminos">Acepto los Términos y condiciones</label>
+                </div>
+
+                <button type="submit" class="btn submit-btn">Crea tu cuenta ahora</button>
+            </form>
+            <p class="login-link">¿Ya tienes cuenta? <a href="#">Inicia sesión</a></p>
+        </main>
+    </div>
+    
+</body>
+</html>
