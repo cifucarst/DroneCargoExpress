@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - DroneCargoExpress</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">DRONECARGOEXPRESS</div>
+            <nav>
+                <a href="register.html" class="btn-primary">Usuario Nuevo</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>INICIA SESIÓN</h1>
+
+            <div class="social-login">
+                <button class="btn-social fb">Iniciar con Facebook</button>
+                <button class="btn-social google">Iniciar con Google</button>
+                <p>* Al ingresar aceptas los Términos y condiciones</p>
+            </div>
+
+            <form action="login_process.html" method="post">
+                <div class="form-group">
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contrasena">Contraseña</label>
+                    <div class="password-container">
+                        <input type="password" id="contrasena" name="contrasena" placeholder="Escribe tu contraseña" required>
+                        <span class="toggle-password">👁️</span>
+                    </div>
+                    <a href="forgot_password.html" class="forgot-password">¿Has olvidado tu contraseña?</a>
+                </div>
+
+                <button type="submit" class="btn-submit">Iniciar Sesión</button>
+            </form>
+            <p>¿No tienes una cuenta? <a href="register.html">Regístrate gratis</a></p>
+        </main>
+
+    </div>
+</body>
+</html>
